@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="leftSide">
+            <h1>Campo minato</h1>
+        </div>
+    <div class="middle">
+        <span>Score: </span>
+        <span id="score"></span>
+    </div>
+        <div class="rightSide">
+            <label for="difficolta">Difficulty :</label>
+          <select name="difficolta" id="difficulty">
+            <option value="100">Easy</option>
+            <option value="81">Medium</option>
+            <option value="49">Hard</option>
+          </select>
+          <button onclick="play()">Play</button>
+        </div>
+    </header>
+<!-- fine sezione header -->
+    
+    <main>
+        <div class="container" id="board">
+
+        </div>
+    </main>
+
+    <!-- fine sezione main -->
+    <footer>
+        <span>Made with &#9829; by <a href="#">Boolean</a> </span>
+    </footer>
+    <!-- fine footer -->
+    <script src="main.js"></script>
+</body>
+</html>
